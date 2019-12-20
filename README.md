@@ -1,6 +1,8 @@
 # 2fa-reminder
 Get reminded to enable 2-Factor Authentication when signing up for websites/services.
 
+![screenshot](images/screenshot.png)
+
 ## About
 This is a simple Google Chrome extension that displays a reminder when you visit a "Sign Up" or "Registration" page.
 

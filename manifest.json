@@ -1,11 +1,10 @@
 {
-"manifest_version": 2, //required
-"version": "1.0", //required
-"name": "2FA Security Reminder", //required
+"name": "2FA Security Reminder",
 "description": "Get reminded to enable 2-Factor Authentication when signing up for websites/services.",
+"manifest_version": 2, 
+"version": "1.1", 
 "permissions":[
-	"activeTab",
-	"tabs"
+	"activeTab"
 ],
 "content_scripts": [
 	{
@@ -22,6 +21,5 @@
 	{
 		"default_icon": "images/favicon128.png",
 		"default_popup": "popup.html"
-	}
- 	
+	}	
 }
